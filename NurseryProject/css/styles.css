@@ -1,0 +1,382 @@
+body {
+    background-color: white;
+
+    font-family: 'B612 Mono', monospace;
+    font-family: 'IM Fell English SC', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto Serif', serif;
+
+}
+
+/* Media query*/
+@media(max-width: 550px) {
+
+    #mobile h1 {
+        display: block;
+
+    }
+}
+
+@media(min-width: 551px) and (max-width: 768px) {
+
+    #tablet h1 {
+        display: block;
+    }
+}
+
+@media(min-width: 769px) and (max-width: 1200px) {
+
+    #normal h1 {
+        display: block;
+    }
+}
+
+@media(min-width: 1201px) {
+
+    #normal h1 {
+        display: block;
+    }
+}
+
+/* Media query end*/
+h1 a {
+    background: url('../css/img/tlt.jpg') center /cover;
+    padding: 30px;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.container {
+
+    padding: 0px 0px;
+}
+
+#navbar {
+    float: left;
+}
+
+#navbar h1 {
+    margin: 30px 0px 10px 240px;
+    float: left;
+    font-size: 30px;
+
+
+}
+
+#navbar ul {
+    margin: 0px 00px 05px 600px;
+    float: right;
+    list-style: none;
+
+}
+
+#navbar ul li {
+    float: left;
+    margin: 0px 10px;
+    background-color: rgb(21, 96, 34);
+    padding: 15px 20px;
+    border-radius: 80px;
+    font-size: 20px
+}
+
+#navbar ul li a {
+    color: white;
+
+}
+
+#sectionOne {
+    height: 400px;
+    border: none;
+}
+
+#sectionOne .top {
+    clear: both;
+    background: url('../css/img/backgd.jpg') no-repeat center 50% /cover;
+    height: 480px;
+    width: 1120px;
+    margin: 60px;
+    border-style: none;
+}
+
+#sectionOne h2 {
+    text-align: center;
+    display: block;
+
+    color: white;
+    padding-top: 50px;
+    /* padding: 60px 100px; */
+
+}
+
+#sectionOne pre {
+    text-align: center;
+    color: rgb(21, 96, 34);
+
+    font-size: x-large;
+    font-weight: 900;
+    /* Text-stroke-line */
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: white;
+
+}
+
+.btn {
+    clear: both;
+    float: right;
+    background-color: rgb(21, 96, 34);
+    color: white;
+    padding: 15px 40px;
+    border-radius: 80px;
+    font-size: 20px;
+    margin: 20px 280px 0px 540px;
+}
+
+.cmn {
+    padding: 5px;
+    margin: 5px 0px 0px 200px;
+    float: left;
+    border-radius: 50px;
+    background-color: rgb(232, 232, 232);
+    color: black;
+    height: 30px;
+
+    border-style: none;
+}
+
+.cmimg {
+    height: 30px;
+    width: 30px;
+    ;
+}
+
+/* Sction 2*/
+#sectionTwo {
+    clear: both;
+    margin-top: 200px;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: 222;
+}
+
+#sectionTwo div {
+    clear: both;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 80px;
+    flex-direction: row;
+    border-style: double;
+
+}
+
+#sectionTwo a div {
+    border-color: rgb(21, 96, 34);
+}
+
+#sectionTwo a div h2 {
+    color: rgba(21, 96, 33, 0.626);
+}
+
+#sectionTwo h2 {
+    position: relative;
+    left: 30px;
+}
+
+.pc1 {
+    clear: both;
+    background: url('../css/img/home.jpg') no-repeat center 100% /cover;
+    height: 350px;
+    width: 300px;
+
+}
+
+.pc2 {
+    clear: both;
+    background: url('../css/img/wd.jpg') no-repeat center 100% /cover;
+    height: 350px;
+    width: 300px;
+
+}
+
+.pc3 {
+    clear: both;
+    background: url('../css/img/dl.jpg') no-repeat center 100% /cover;
+    height: 350px;
+    width: 300px;
+
+}
+
+/* end section 2 */
+.sctool {
+    height: 350px;
+    width: 350px;
+    border-style: double;
+}
+
+#fot {
+    clear: both;
+    height: 170px;
+    width: 1130px;
+    margin: 30px 0px 10px 55px;
+    background-color: rgb(218, 215, 215);
+}
+
+#fot p {
+    float: right;
+    font-size: 20px;
+}
+
+#fot div {
+    padding: 10px 80px;
+
+}
+
+.fdiv {
+    display: block;
+
+}
+
+.logo {
+    padding: 0px 05px;
+    height: 50px;
+    width: 50px;
+}
+
+.txtlg {
+    color: rgb(21, 96, 34);
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: rgb(21, 96, 34);
+}
+
+.borderfot {
+    border-style: ridge solid;
+
+    padding: 15px 15px;
+}
+
+/* About style*/
+#abu {
+
+    display: flex;
+    float: right;
+    clear: both;
+    padding: 30px 50px;
+    font-size: 20px;
+    color: black;
+}
+
+#abu div {
+    display: flex;
+    flex-direction: column;
+}
+
+#abu div p {
+    padding: 10px 100px;
+}
+
+.picground {
+    clear: both;
+    height: 200px;
+    width: 200px;
+    margin: 20px 150px 0px 0px;
+    border-style: double;
+}
+
+/* Contact*/
+#contact {
+    padding: 15px 100px;
+    color: rgb(21, 96, 34);
+}
+
+#contact h1 {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+#contact p {
+    display: inline-block;
+}
+
+#contact form div {
+    display: inline-block;
+    padding: 15px 0px;
+
+}
+
+.txt {
+    width: 250px;
+    height: 80px;
+    padding: 0px;
+}
+
+.lbl {
+    margin-top: 20px;
+    float: left;
+}
+
+.emailspace {
+    margin-left: 39px;
+}
+
+.sbtn {
+    display: inline-block;
+    background-color: rgb(21, 96, 34);
+    color: white;
+    padding: 15px 40px;
+    border-radius: 80px;
+    border-style: none;
+    font-size: 20px;
+    margin-top: 40px;
+
+
+}
+
+.flc {
+
+    display: inline-block;
+    margin: 60px 0px 0px 30px;
+    height: 300px;
+    width: 500px;
+
+}
+
+/*plantes*/
+.ptl {
+    display: block;
+    color: rgb(21, 96, 34);
+    text-decoration: underline;
+
+}
+
+#plantes table div {
+    height: 350px;
+    width: 240px;
+    display: block;
+    color: rgb(21, 96, 34);
+    text-align: center;
+}
+
+.ptl {
+    clear: both;
+    position: static;
+    margin-left: 220px;
+    padding-top: 10px;
+
+}
+
+#plantes div img {
+    clear: both;
+    float: center;
+    height: 200px;
+    width: 200px;
+    padding: auto;
+    border-style: double;
+}
+
+#plantes table {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 60px;
+}
